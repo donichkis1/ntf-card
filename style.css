@@ -6,40 +6,65 @@ body {
     flex-direction: column;
     height: 100vh;
     background-color: hsl(217, 54%, 11%);
+    
 }
 
 .container {
     height: 60vh;
     width: 275px;
-    border: 1px solid black;
+    
     padding: 20px;
     border-radius: 10px;
     background-color: hsl(216, 50%, 16%);
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 0 0 80px rgba(20, 34, 84, 0.192);
 
 }
 
+.container-active {
+    position: relative;
+}
+
 .equib-img {
+    
     height: auto;
     width: 100%;
+   
     border-radius: 10px;
     cursor: pointer;
 }
 
-.view {
+.container-active div {
     position: absolute;
-    top: 25vh;
-    width: 15%;
-    border: 200px solid 
-    z-index: 2;
-    background-color: rgba(0, 255, 255, 0.667);
+    width: 100%;
+    background-color: hsl(178, 100%, 50%);
+    height: 100%;
+    top: 0;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.3s;
+    
+}
+.container-active div img {
+    position: absolute;
+    top: 50%;
+    background-color: hsl(178, 100%, 50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
 }
 
-.equib-img :hover {
-    color: aqua;
 
-   
+
+.container-active div:hover {
+    opacity: 65%;
 }
+
+
+
+
+
+
 
 
 
