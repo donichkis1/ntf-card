@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    height: 60vh;
+    width: 275px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 1px 1px 1px 1px;
+
+}
+
+.equib-img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.view {
+    position: absolute;
+    top: 25vh;
+    width: 15%;
+    border: 200px solid 
+    z-index: 2;
+    background-color: rgba(0, 255, 255, 0.667);
+}
+
+.equib-img :hover {
+    color: aqua;
+
+   
+}
+
+
+
+.nft-title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.nft-title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.desc {
+    color: hsl(211, 27%, 52%);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.crypto-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(211, 27%, 52%);
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.crypto {
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+}
+
+.eth-icon {
+    width: auto;
+    height: 15px;
+    margin-right: 7px;
+}
+
+.card-icons {
+    display: flex;
+    justify-content:left;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.card-icons .time-icon {
+    margin-right: 7px;
+}
+
+.author-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.author-section p {
+    color: hsl(211, 27%, 52%);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+
+.author-section a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.author-section a:hover {
+    color: hsl(178, 100%, 50%); 
+}
+
+.author-icon {
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
